@@ -1,0 +1,104 @@
+/* form.css */
+/* Add your existing CSS styles for the form if needed */
+
+/* New CSS for the AddFoodOrder component */
+
+
+.food-order-container-new {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.food-order-title-new {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.input-container-new {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.input-field-new {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-button-new {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-button-new:hover {
+  background-color: #0056b3;
+}
+
+.order-list-new {
+  list-style: none;
+  padding: 0;
+}
+
+.order-item-new {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.delete-button-new {
+  padding: 5px 10px;
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-button-new:hover {
+  background-color: #cc0000;
+}
+
+.add-order-button-new {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-order-button-new:hover {
+  background-color: #45a049;
+}
+
+/* Add your media queries for responsiveness */
+@media (max-width: 768px) {
+  .food-order-container-new {
+    /* Adjust the styles for smaller screens if needed */
+  }
+}
+
+.sideall3 {
+  min-width: 40px;
+}
